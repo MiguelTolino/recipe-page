@@ -11,6 +11,31 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Recipe page</title>
+    <script>
+      // Define available themes
+      var themes = [
+        "https://www.w3schools.com/lib/w3-theme-blue.css",
+        "https://www.w3schools.com/lib/w3-theme-red.css",
+        "https://www.w3schools.com/lib/w3-theme-green.css",
+        "https://www.w3schools.com/lib/w3-theme-purple.css",
+        "https://www.w3schools.com/lib/w3-theme-orange.css",
+        "https://www.w3schools.com/lib/w3-theme-teal.css",
+        "https://www.w3schools.com/lib/w3-theme-yellow.css",
+        "https://www.w3schools.com/lib/w3-theme-pink.css",
+        "https://www.w3schools.com/lib/w3-theme-deep-purple.css",
+        "https://www.w3schools.com/lib/w3-theme-indigo.css",
+        "https://www.w3schools.com/lib/w3-theme-light-blue.css",
+        "https://www.w3schools.com/lib/w3-theme-light-green.css",
+        "https://www.w3schools.com/lib/w3-theme-lime.css",
+        // Add more themes here
+      ];
+    
+      // Randomly select a theme
+      var randomTheme = themes[Math.floor(Math.random() * themes.length)];
+    
+      // Apply the selected theme
+      document.write('<link rel="stylesheet" href="' + randomTheme + '">');
+    </script>
   </head>
 
   <body class="w3-theme-l3">
