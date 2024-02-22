@@ -8,6 +8,5 @@ This project is a simple web page presenting a recipe for a classic dish.
 
 - **CSS (w3.css)**: Styling is applied using the w3.css framework from W3Schools, providing a clean and responsive design with predefined classes for easy styling.
 
-## Usage
-
-Users can follow the provided instructions to prepare the dish according to their preferences. The page is designed to be user-friendly, with clear headings and organized content for easy navigation.
+### Dynamic Theme Selection
+In this project, we've implemented a feature that dynamically selects a theme for the webpage every time it loads or refreshes. This adds variety and visual interest to the user experience.
