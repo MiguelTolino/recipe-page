@@ -8,7 +8,7 @@ li::marker {
 
 .card-size {
 	padding: 5%;
-	width: 60%;
+	width: 50%;
 	margin: auto;
 	margin-top: 10%;
 	margin-bottom: 10%;
@@ -32,7 +32,7 @@ th {
 	color: #db9833
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 	.card-size {
 		margin: auto;
 		width: 100%;
